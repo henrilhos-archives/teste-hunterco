@@ -1,55 +1,64 @@
 <template>
   <div>
+    <nav
+      class="navbar navbar-expand-md fixed-top"
+      style="border-bottom: 1px solid #e7e7e7 !important;"
+    >
+      <a
+        class="navbar-brand"
+        href="#"
+      >HunterConnect</a>
+
+      <div
+        id="navbarCollapse"
+        class="collapse navbar-collapse"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+            >
+              Vagas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://br.vuejs.org/"
+              target="_blank"
+            >
+              VueJs
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://nuxtjs.org/"
+              target="_blank"
+            >
+              NuxtJs
+            </a>
+          </li>
+        </ul>
+
+        <form class="form-inline mt-2 mt-md-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Buscar vagas"
+            aria-label="Buscar vagas"
+          >
+          <button class="btn btn-outline-primary my-2 my-sm-0">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+
     <nuxt />
   </div>
 </template>
 
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>
