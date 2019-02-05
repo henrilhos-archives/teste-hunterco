@@ -2,84 +2,102 @@ export default {
   getJobs() {
     return [
       {
-        nome_vaga: 'Progamador(a) PHP',
+        vaga: 'Progamador(a) PHP',
         nome_empresa: 'Oxygen',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/oxygen-systems.png',
-        valor_vaga: 1500,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Pleno'
+        url_banner: 'https://web-static.hunterco.com.br/banners/oxygen-systems.png',
+        valor: 1500,
+        area: 'Desenvolvimento',
+        senioridade: 'Pleno',
+        tags: ['PHP', 'Laravel', 'MySQL', 'Pleno', 'Bootstrap', ''],
+        cidade: 'Florianópolis'
       },
       {
-        nome_vaga: 'Arquiteto de Software',
+        vaga: 'Arquiteto de Software',
         nome_empresa: 'DIWE',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/diwe.png',
-        valor_vaga: 2350,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Sênior'
+        url_banner: 'https://web-static.hunterco.com.br/banners/diwe.png',
+        valor: 2350,
+        area: 'Desenvolvimento',
+        senioridade: 'Sênior',
+        tags: [],
+        cidade: 'São Paulo'
       },
       {
-        nome_vaga: 'Desenvolvedor Front-End',
+        vaga: 'Desenvolvedor Front-End',
         nome_empresa: 'RotaExata',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/rota-exata.png',
-        valor_vaga: 4500,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Júnior'
+        url_banner: 'https://web-static.hunterco.com.br/banners/rota-exata.png',
+        valor: 4500,
+        area: 'Desenvolvimento',
+        senioridade: 'Júnior',
+        tags: ['HTML', 'CSS', 'Bootstrap', 'VueJs', 'Git', 'Vuetify', 'NodeJs'],
+        cidade: 'Blumenau'
       },
       {
-        nome_vaga: 'Desenvolvedor Full-Stack',
+        vaga: 'Desenvolvedor Full-Stack',
         nome_empresa: 'JetBov',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/jetbov.png',
-        valor_vaga: 1500,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Estágio'
+        valor: 1500,
+        area: 'Desenvolvimento',
+        senioridade: 'Estágio',
+        tags: ['NodeJs', 'Python', 'MySQL', 'MongoDB'],
+        cidade: 'Joinville'
       },
       {
-        nome_vaga: 'Vendedor Interno',
+        vaga: 'Vendedor Interno',
         nome_empresa: 'HunterCo',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/private-company.png',
-        valor_vaga: 1000,
-        area_vaga: 'Vendas',
-        senioridade_vaga: 'Júnior'
+        url_banner: 'https://web-static.hunterco.com.br/banners/private-company.png',
+        valor: 1000,
+        area: 'Vendas',
+        senioridade: 'Júnior',
+        tags: ['Vendas', 'Comercial', 'Vendas', 'Prospecção', 'Customer Success', 'Vendas'],
+        cidade: 'Joinville'
       },
       {
-        nome_vaga: 'Analista de Suporte',
+        vaga: 'Analista de Suporte',
         nome_empresa: 'Portal Telemedicina',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/portal-telemedicina.png',
-        valor_vaga: 2439,
-        area_vaga: 'Atendimento',
-        senioridade_vaga: 'Sênior'
+        url_banner: 'https://web-static.hunterco.com.br/banners/portal-telemedicina.png',
+        valor: 2439,
+        area: 'Atendimento',
+        senioridade: 'Sênior',
+        tags: ['Suporte', 'Atendimento', 'PHP', 'Web'],
+        cidade: 'Blumenau'
       },
       {
-        nome_vaga: 'Desenvolvedor Java',
+        vaga: 'Desenvolvedor Java',
         nome_empresa: 'Ibratan',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/ibratan.png',
-        valor_vaga: 1250,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Sênior'
+        valor: 1250,
+        area: 'Desenvolvimento',
+        senioridade: 'Sênior',
+        tags: ['Java', 'Maven', 'TDD', 'MySQL', 'Spring'],
+        cidade: 'Joinville'
       },
       {
-        nome_vaga: 'Gerente de Projetos',
+        vaga: 'Gerente de Projetos',
         nome_empresa: 'DIWE',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/diwe.png',
-        valor_vaga: 2863,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Estágio'
+        url_banner: 'https://web-static.hunterco.com.br/banners/diwe.png',
+        valor: 2863,
+        area: 'Desenvolvimento',
+        senioridade: 'Estágio',
+        tags: ['Projetos', 'Engenharia de Software', 'Estágio'],
+        cidade: 'São Paulo'
       },
       {
-        nome_vaga: 'Testador de Jogos',
+        vaga: 'Testador de Jogos',
         nome_empresa: 'Hydra Systems',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/hydra-systems.png',
-        valor_vaga: 6575,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Estágio'
+        url_banner: 'https://web-static.hunterco.com.br/banners/hydra-systems.png',
+        valor: 6575,
+        area: 'Desenvolvimento',
+        senioridade: 'Estágio',
+        tags: ['Testes', 'Estágio', 'Selenium'],
+        cidade: 'Rio de Janeiro'
       },
       {
-        nome_vaga: 'Estágio - Desenvolvedor',
+        vaga: 'Estágio - Desenvolvedor',
         nome_empresa: 'HunterCo',
-        url_banner_empresa: 'https://web-static.hunterco.com.br/banners/private-company.png',
-        valor_vaga: 6423,
-        area_vaga: 'Desenvolvimento',
-        senioridade_vaga: 'Sênior'
+        url_banner: 'https://web-static.hunterco.com.br/banners/private-company.png',
+        valor: 6423,
+        area: 'Desenvolvimento',
+        senioridade: 'Sênior',
+        tags: ['Desenvolvedor', 'Angular', 'Mobile', 'AWS', 'MongoDB', 'Java', 'Spring', '', 'Selenium'],
+        cidade: 'Joinville'
       }
     ]
   }
