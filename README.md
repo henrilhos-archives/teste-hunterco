@@ -5,6 +5,8 @@ O arquivo referente a tela inicial do projeto está em `pages/index.vue`, dentro
 
 Os links para a documentação dos frameworks se encontram no fim deste documento, junto de uma imagem com um exemplo de portal de vagas.
 
+Sinta-se a vontade para criar a tela do seu jeito, caso queira pode criar o seu próprio estilo (CSS) para ela, criar funções ou qualquer outra coisa que vier à sua cabeça :D.
+
 Qualquer dúvida que surja você pode se sentir a vontade de tirar dúvidas comigo, ou qualquer coisa, google it ;).
 
 Boa sorte!
