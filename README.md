@@ -12,16 +12,20 @@ Qualquer dúvida que surja você pode se sentir a vontade de tirar dúvidas comi
 Boa sorte!
 
 ## Build Setup
-Para poder rodar o projeto você precisará estar como o NodeJs e o NPM instalados, para instalar, [clique aqui](https://nodejs.org/).
+Para poder rodar o projeto você precisará estar como o NodeJs e o NPM (ou [Yarn](https://yarnpkg.com/pt-BR/)) instalados, para instalar, [clique aqui](https://nodejs.org/).
 
 Após instalar o node basta abrir a pasta do projeto no terminal e rodar os seguintes comandos:
 
 ``` bash
 # Instalar as dependências
 $ npm install
+# ou
+$ yarn install
 
 # Rodar o projeto no http://localhost:3000
 $ npm run dev
+#ou
+$ yarn run dev
 ```
 
 Para mais detalhes: [Nuxt.js docs](https://nuxtjs.org), [Vue.js docs](https://br.vuejs.org) e [Bootstrap docs](https://getbootstrap.com/).
