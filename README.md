@@ -12,6 +12,7 @@ Qualquer dúvida que surja você pode se sentir a vontade de tirar dúvidas comi
 Boa sorte!
 
 ## Build Setup
+
 Para poder rodar o projeto você precisará estar como o NodeJs e o NPM (ou [Yarn](https://yarnpkg.com/pt-BR/)) instalados, para instalar, [clique aqui](https://nodejs.org/).
 
 Após instalar o node basta abrir a pasta do projeto no terminal e rodar os seguintes comandos:
