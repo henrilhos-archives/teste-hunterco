@@ -6,7 +6,7 @@
     >
       <a
         class="navbar-brand"
-        href="#"
+        href="/"
       >HunterConnect</a>
 
       <div
@@ -58,6 +58,7 @@
 
     <nuxt />
   </div>
+
 </template>
 
 <style>

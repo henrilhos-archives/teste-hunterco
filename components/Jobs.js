@@ -34,6 +34,7 @@ export default {
       {
         vaga: 'Desenvolvedor Full-Stack',
         nome_empresa: 'JetBov',
+        url_banner: 'https://zootecniaativa.com/wp-content/uploads/2015/12/1.png',
         valor: 1500,
         area: 'Desenvolvimento',
         senioridade: 'Estágio',
@@ -63,6 +64,7 @@ export default {
       {
         vaga: 'Desenvolvedor Java',
         nome_empresa: 'Ibratan',
+        url_banner: 'https://i.ibb.co/KjHHBG7/ibratan-logo.jpg',
         valor: 1250,
         area: 'Desenvolvimento',
         senioridade: 'Sênior',

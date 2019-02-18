@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Teste - HunterCo',
+    title: 'Teste - Anderson Batalha',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +13,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet',  href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css' }
+      { rel: 'stylesheet',  href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css' },
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
@@ -31,6 +31,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/css/style.css',
   ],
 
   /*
