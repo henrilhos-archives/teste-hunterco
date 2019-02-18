@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Teste - HunterCo',
+    title: 'Teste - Leandro Faustino',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -49,7 +49,9 @@ module.exports = {
   /*
   ** Build configuration
   */
-  build: {
+  build: {build: {
+    vendor: ['axios', '~assets/bower_components/jquery/dist/jquery.js', '~assets/bower_components/bootstrap/dist/js/bootstrap.js']
+},
     /*
     ** You can extend webpack config here
     */

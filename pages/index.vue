@@ -4,6 +4,7 @@
     style="margin-top: 70px;"
   >
     <!-- seu código aqui -->
+
     <div
       v-for="(job, i) in jobs"
       :key="i"
@@ -14,7 +15,7 @@
 </template>
 
 <script>
-import Jobs from '@/components/Jobs.js'
+import Jobs from '@/components/jobs.js'
 export default {
   data() {
     return {
@@ -25,4 +26,8 @@ export default {
 </script>
 
 <style>
+
+
+
+
 </style>
