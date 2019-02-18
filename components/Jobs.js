@@ -9,7 +9,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Pleno',
         tags: ['PHP', 'Laravel', 'MySQL', 'Pleno', 'Bootstrap', ''],
-        cidade: 'Florianópolis'
+        cidade: 'Florianópolis',
+        id: 'Modal1'
       },
       {
         vaga: 'Arquiteto de Software',
@@ -19,7 +20,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Sênior',
         tags: [],
-        cidade: 'São Paulo'
+        cidade: 'São Paulo',
+        id: 'Modal2'
       },
       {
         vaga: 'Desenvolvedor Front-End',
@@ -29,7 +31,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Júnior',
         tags: ['HTML', 'CSS', 'Bootstrap', 'VueJs', 'Git', 'Vuetify', 'NodeJs'],
-        cidade: 'Blumenau'
+        cidade: 'Blumenau',
+        id: 'Modal3'
       },
       {
         vaga: 'Desenvolvedor Full-Stack',
@@ -38,7 +41,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Estágio',
         tags: ['NodeJs', 'Python', 'MySQL', 'MongoDB'],
-        cidade: 'Joinville'
+        cidade: 'Joinville',
+        id: 'Modal4'
       },
       {
         vaga: 'Vendedor Interno',
@@ -48,7 +52,8 @@ export default {
         area: 'Vendas',
         senioridade: 'Júnior',
         tags: ['Vendas', 'Comercial', 'Vendas', 'Prospecção', 'Customer Success', 'Vendas'],
-        cidade: 'Joinville'
+        cidade: 'Joinville',
+        id: 'Modal5'
       },
       {
         vaga: 'Analista de Suporte',
@@ -58,7 +63,8 @@ export default {
         area: 'Atendimento',
         senioridade: 'Sênior',
         tags: ['Suporte', 'Atendimento', 'PHP', 'Web'],
-        cidade: 'Blumenau'
+        cidade: 'Blumenau',
+        id: 'Modal6'
       },
       {
         vaga: 'Desenvolvedor Java',
@@ -67,7 +73,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Sênior',
         tags: ['Java', 'Maven', 'TDD', 'MySQL', 'Spring'],
-        cidade: 'Joinville'
+        cidade: 'Joinville',
+        id: 'Modal7'
       },
       {
         vaga: 'Gerente de Projetos',
@@ -77,7 +84,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Estágio',
         tags: ['Projetos', 'Engenharia de Software', 'Estágio'],
-        cidade: 'São Paulo'
+        cidade: 'São Paulo',
+        id: 'Modal8'
       },
       {
         vaga: 'Testador de Jogos',
@@ -87,7 +95,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Estágio',
         tags: ['Testes', 'Estágio', 'Selenium'],
-        cidade: 'Rio de Janeiro'
+        cidade: 'Rio de Janeiro',
+        id: 'Modal9'
       },
       {
         vaga: 'Estágio - Desenvolvedor',
@@ -97,7 +106,8 @@ export default {
         area: 'Desenvolvimento',
         senioridade: 'Sênior',
         tags: ['Desenvolvedor', 'Angular', 'Mobile', 'AWS', 'MongoDB', 'Java', 'Spring', '', 'Selenium'],
-        cidade: 'Joinville'
+        cidade: 'Joinville',
+        id: 'Modal10'
       }
     ]
   }
