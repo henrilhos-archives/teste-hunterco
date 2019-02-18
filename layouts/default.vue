@@ -8,7 +8,7 @@
     <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar Vagas</button>
   </form>
 </nav>
-
+  
 
     <div class="container">
 <div class="row" style="	margin-bottom: 15px">
@@ -62,7 +62,7 @@ A empresa <b>Oxygen</b> está procurando por desenvolvedores(a) Php-Pleno com os
 		 class="card-img-top"/>
 	    <div class="card-body">
 			<h4 class="card-title">JetBov-Estágio desenvolvimento</h4><br>
-			<p class="card-text"> A empresa <b>JetBov</b> está procurando por estágiarios de desenvolvimento [NodeJs,Python,MySQL,MongoDB]	para a cidade de Joinville pelo valor de 1500,00.</p>
+			<p class="card-text"> A empresa <b>JetBov</b> está procurando por estágiarios de desenvolvimento [NodeJs,Python,MySQL,MongoDB]	para a cidade de Joinville pelo valor de 1500,00.</p> 
       <button type="button" class="btn btn-primary btn-lg btn-block">Conhecer</button>
 		</div>
 		</div>
@@ -107,7 +107,7 @@ A empresa <b>Oxygen</b> está procurando por desenvolvedores(a) Php-Pleno com os
         		</div>
 		</div>
 				</div>
-						</div>
+						</div>	
 			</div>
 </div>
 <b-card-footer class="bg-primary text-center">
@@ -115,11 +115,11 @@ A empresa <b>Oxygen</b> está procurando por desenvolvedores(a) Php-Pleno com os
 	<p class="bg-primary"><a style="color:black" href="#"> Politica de privacidade</a> |  <a style="color:black" href="#">Mapa do Site  </a> | <a style="color:black" href="#">Ajuda  </a></p>
 	<p class="bg-primary">© 2018 HunterCo — Todos os direitos reservados |<a style="color:black" href="#"> Reportar um problema</a></p>
 	</div>
-
+	
 
 </b-card-footer>
   </div>
-
+	
   </template>
 <style>
 
